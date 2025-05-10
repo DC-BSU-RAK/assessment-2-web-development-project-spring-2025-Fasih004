@@ -1,0 +1,198 @@
+/* index.css */
+/* Hero Section */
+.hero-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--text-light);
+    width: 80%;
+    max-width: 800px;
+    z-index: 1;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: var(--transition);
+    border: 2px solid var(--secondary-color);
+}
+
+.cta-button:hover {
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+
+/* Featured Section */
+.featured-section {
+    padding: 80px 0;
+    background-color: #f0f0f0;
+}
+
+.featured-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
+
+.featured-cars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.featured-car {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+.featured-car:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.car-image-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.car-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.featured-car:hover .car-image {
+    transform: scale(1.1);
+}
+
+.featured-car h3 {
+    padding: 20px 20px 10px;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.featured-car p {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.view-more {
+    display: block;
+    padding: 15px 20px;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: var(--transition);
+}
+
+.view-more:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+}
+
+/* About Preview Section */
+.about-preview {
+    padding: 100px 0;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+.about-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-content p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: transparent;
+    color: var(--text-light);
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: var(--transition);
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+}
