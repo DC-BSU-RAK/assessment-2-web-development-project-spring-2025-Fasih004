@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Hide all slides
         slides.forEach((slide, i) => {
             slide.style.display = i === index ? 'flex' : 'none';
-        });
+        }); 
         
         // Update indicators
         indicators.forEach((indicator, i) => {
