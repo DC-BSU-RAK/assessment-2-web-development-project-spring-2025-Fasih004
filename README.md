@@ -51,14 +51,25 @@
 ## 🗂️ Project Structure
 
 📁 car-details/ → Individual car detail pages
+
 📁 css/ → Page-specific and global styling files
+
 📁 images/ → Assets: cars, backgrounds, features, icons, reviews
+
 📁 js/ → JavaScript logic for each page & shared utilities
+
 📄 index.html → Main animated home page
+
 📄 showroom.html → Car display & 3D preview grid
+
 📄 customize.html → Customization interface with 360 view
+
 📄 buy-sell.html → Car marketplace
+
 📄 reviews.html → Testimonials and customer reviews
+
 📄 about.html → Brand background and purpose
+
 📄 contact.html → Inquiry form and contact info
+
 📄 cart.html → Checkout/cart view
