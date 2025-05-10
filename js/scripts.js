@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
             hamburger.classList.toggle('active');
         });
     }
-    
-    // Header scroll effect
+     
+    // Header scroll effect 
     const header = document.querySelector('.main-header');
     
     window.addEventListener('scroll', function() {
