@@ -1,6 +1,3 @@
-@ -1,63 +0,0 @@
-# 🏎️ CarVerse – 3D Car Showcase & Customization Platform
-
 ## 📌 Overview
 
 **CarVerse** is a dynamic, visually-rich website built to offer users an immersive car browsing, customization, and purchasing experience. From an animated homepage to a fully functional showroom and 360° custom car builder, this project combines modern web design, interactive JavaScript, and sleek CSS animations to create a one-of-a-kind digital car platform.
