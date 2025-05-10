@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const savedItemsList = document.querySelector('.saved-items-list');
     const clearCartBtn = document.getElementById('clear-cart');
     const saveCartBtn = document.getElementById('save-cart');
-    const checkoutBtn = document.querySelector('.checkout-btn');
+    const checkoutBtn = document.querySelector('.checkout-btn'); 
     const continueShoppingBtn = document.querySelector('.continue-shopping');
     
     // Modals
