@@ -2,7 +2,7 @@
 
 .about-nav-section {
     background-color: var(--primary-color);
-    padding: 0;
+    padding: 0; 
     position: sticky;
     top: 70px;
     z-index: 99;
