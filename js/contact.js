@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const inquiryTypeGroup = document.getElementById('inquiry-type-group');
 
     // Location Tabs
-    const locationTabs = document.querySelectorAll('.location-tab');
+    const locationTabs = document.querySelectorAll('.location-tab'); 
     const locationContents = document.querySelectorAll('.location-content');
 
     // FAQ Accordions
