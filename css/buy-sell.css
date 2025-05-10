@@ -3,7 +3,7 @@
 /* Tab Navigation */
 .buy-sell-tabs {
     background-color: var(--primary-color);
-    padding: 0;
+    padding: 0; 
     margin-top: -20px;
 }
 
