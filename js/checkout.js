@@ -603,7 +603,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add click event listener
     if (placeOrderBtn) {
-        placeOrderBtn.addEventListener('click', function(e) {
+        placeOrderBtn.addEventListener('click', function(e) { 
             e.preventDefault();
             
             // Show processing modal if it exists
