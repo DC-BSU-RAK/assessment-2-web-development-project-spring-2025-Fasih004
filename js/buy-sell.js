@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     connect: true,
                     step: 5000,
                     range: {
-                        'min': 50000,
+                        'min': 50000, 
                         'max': 500000
                     },
                     format: {
