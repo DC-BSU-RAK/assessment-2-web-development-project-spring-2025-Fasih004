@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contact-form');
     const vehicleInterestGroup = document.getElementById('vehicle-interest-group');
     const positionGroup = document.getElementById('position-group');
-    const resumeGroup = document.getElementById('resume-group');
+    const resumeGroup = document.getElementById('resume-group'); 
     const inquiryTypeGroup = document.getElementById('inquiry-type-group');
 
     // Location Tabs
