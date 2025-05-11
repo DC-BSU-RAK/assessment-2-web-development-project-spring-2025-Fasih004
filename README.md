@@ -47,6 +47,9 @@
 - Moves to the checkout page for payment information.
 - Features a **checkout process**.
 
+### 🛍️ Confirmation page (`confirmation.html`)
+- Order Confrimation page.
+
 ---
 
 ## 🗂️ Project Structure
