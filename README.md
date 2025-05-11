@@ -43,6 +43,10 @@
 - Displays selected configurations or cars.
 - Features a **mock checkout process**.
 
+### 🛍️ Checkout page (`checkout.html`)
+- Moves to the checkout page for payment information.
+- Features a **checkout process**.
+
 ---
 
 ## 🗂️ Project Structure
@@ -70,3 +74,5 @@
 📄 contact.html → Inquiry form and contact info
 
 📄 cart.html → Checkout/cart view
+
+📄 checkout.html → Checkout/cart view
