@@ -73,6 +73,8 @@
 
 📄 contact.html → Inquiry form and contact info
 
-📄 cart.html → Checkout/cart view
+📄 cart.html → Cart view
 
-📄 checkout.html → Checkout/cart view
+📄 checkout.html → Checkout/Payment
+
+📄 confirmation.html → Order confirmation
