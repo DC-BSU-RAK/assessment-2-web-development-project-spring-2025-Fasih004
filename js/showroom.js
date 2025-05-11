@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Show/hide cars based on category 
                 carCards.forEach(card => {
                     if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
-                        card.style.display = 'block';
+                        card.style.display = 'block'; 
                         setTimeout(() => {
                             card.style.opacity = '1';
                             card.style.transform = 'translateY(0)';
