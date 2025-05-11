@@ -1304,4 +1304,4 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize financing calculator
     updateFinancingEstimate();
-});
+}); 
