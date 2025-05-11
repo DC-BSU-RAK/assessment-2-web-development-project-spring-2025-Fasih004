@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             header.classList.add('scrolled');
         } else {
             header.classList.remove('scrolled');
-        }
+        } 
     });
     
     // Add animation classes to elements when they come into view
