@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Current vehicle model and configuration 
         let currentVehicle = {
-            model: 'ferrari-sf90',
+            model: 'ferrari-sf90', 
             name: 'Ferrari SF90 Stradale',
             basePrice: 321400,
             specs: {
