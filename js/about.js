@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Scroll to the top of the section
             document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
-    });
+    }); 
     
     // FAQ Accordion
     const faqItems = document.querySelectorAll('.faq-item');
