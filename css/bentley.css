@@ -3,7 +3,7 @@
 /* Color variables */
 :root {
     --bentley-primary: #003F2D; /* Bentley British Racing Green */
-    --bentley-secondary: #C9A959; /* Bentley Gold */
+    --bentley-secondary: #c9a959; /* Bentley Gold */
     --bentley-dark: #1A1A1A;
     --bentley-light: #F5F5F5;
     --bentley-cream: #F0EBE0;
@@ -59,7 +59,7 @@
 }
 
 .car-tagline {
-    font-size: 1.5rem;
+    font-size: 1.5rem; 
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 8px;
