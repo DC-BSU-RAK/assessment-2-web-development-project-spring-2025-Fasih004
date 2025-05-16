@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         filterButtons.forEach(button => {
             button.addEventListener('click', function() {
                 // Remove active class from all buttons and add to clicked button
-                filterButtons.forEach(btn => btn.classList.remove('active'));
+                filterButtons.forEach(btn => btn.classList.remove('active')); 
                 this.classList.add('active');
                 
                 const filterValue = this.getAttribute('data-filter');
