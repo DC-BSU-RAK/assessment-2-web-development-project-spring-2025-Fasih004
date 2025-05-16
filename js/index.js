@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         featuredCars.forEach(car => { 
             const carPosition = car.getBoundingClientRect().top;
             const windowHeight = window.innerHeight;
-            
+             
             if (carPosition < windowHeight - 100) { 
                 car.classList.add('fade-in');
             }
