@@ -602,7 +602,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const placeOrderBtn = document.querySelector('.place-order-btn'); 
     
     // Add click event listener
-    if (placeOrderBtn) {
+    if (placeOrderBtn) { 
         placeOrderBtn.addEventListener('click', function(e) { 
             e.preventDefault();
             
