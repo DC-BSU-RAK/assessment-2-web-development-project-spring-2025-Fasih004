@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
          
         currentIndex = index;
     }
-    
+     
     // Initialize with first slide
     if (slides.length > 0) {
         showSlide(0);
