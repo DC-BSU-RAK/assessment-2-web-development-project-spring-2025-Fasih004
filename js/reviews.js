@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             slide.style.display = i === index ? 'flex' : 'none';
         }); 
         
-        // Update indicators
+        // Update indicators 
         indicators.forEach((indicator, i) => {
             indicator.classList.toggle('active', i === index);
         });
