@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             model: 'ferrari-sf90',  
             name: 'Ferrari SF90 Stradale',
             basePrice: 321400,
-            specs: {
+            specs: { 
                 year: '2023',
                 color: 'Rosso Corsa',
                 interior: 'Nero Leather',
