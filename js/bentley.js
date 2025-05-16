@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!carHero.style.backgroundImage) {
             carHero.style.backgroundImage = 'url("../images/car-deatails/bently.jpg")';
             carHero.style.backgroundSize = 'cover';
-            carHero.style.backgroundPosition = 'center';
+            carHero.style.backgroundPosition = 'center'; 
         }
     } 
 
