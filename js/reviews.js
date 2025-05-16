@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         indicators.forEach((indicator, i) => {
             indicator.classList.toggle('active', i === index);
         });
-         
+          
         currentIndex = index;
     }
      
