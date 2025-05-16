@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             carHero.style.backgroundSize = 'cover';
             carHero.style.backgroundPosition = 'center';
         }
-    }
+    } 
 
     // Bentley Rotating Display Functionality
     const displayButtons = document.querySelectorAll('.display-btn');
