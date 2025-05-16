@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     } else {
                         card.style.opacity = '0';
                         card.style.transform = 'translateY(20px)';
-                        setTimeout(() => {
+                        setTimeout(() => { 
                             card.style.display = 'none';
                         }, 300);
                     }
