@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="detail-item"><i class="fas fa-check"></i> 24/7 Roadside assistance</div>
             `;
         }
-        
+         
         let detailsHTML = '';
         
         // Generate HTML for each detail
