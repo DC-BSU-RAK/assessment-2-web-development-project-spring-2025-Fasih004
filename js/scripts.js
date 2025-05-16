@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             header.classList.remove('scrolled');
         } 
     });
-    
+     
     // Add animation classes to elements when they come into view
     const animateOnScroll = function() {
         const elements = document.querySelectorAll('.featured-car, .about-content, .footer-section, .car-card');
