@@ -599,7 +599,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     // Get the place order button
-    const placeOrderBtn = document.querySelector('.place-order-btn');
+    const placeOrderBtn = document.querySelector('.place-order-btn'); 
     
     // Add click event listener
     if (placeOrderBtn) {
