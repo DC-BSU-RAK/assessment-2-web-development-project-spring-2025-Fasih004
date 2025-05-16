@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             header.classList.remove('scrolled');
         }
-    });
+    }); 
     
     // Close mobile menu when clicking outside
     document.addEventListener('click', function(event) {
