@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const faqItems = document.querySelectorAll('.faq-item');
  
     // Modal Elements
-    const successModal = document.getElementById('success-modal'); 
+    const successModal = document.getElementById('success-modal');  
     const closeModalBtn = document.querySelector('.close-modal');
     const closeSuccessModalBtn = document.getElementById('close-success-modal');
 
