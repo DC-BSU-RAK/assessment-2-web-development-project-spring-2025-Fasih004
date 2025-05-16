@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Render package details
     function renderPackageDetails(packageItem) {
-        if (!packageItem.details || packageItem.details.length === 0) {
+        if (!packageItem.details || packageItem.details.length === 0) { 
             return `
                 <div class="detail-item"><i class="fas fa-check"></i> Oil changes and fluid top-ups</div>
                 <div class="detail-item"><i class="fas fa-check"></i> Brake pads and rotors</div>
