@@ -518,7 +518,7 @@ For assistance, contact your personal concierge at +971 4 456 7890.
 
     // View receipt  button
     const viewReceiptBtn = document.querySelector('.view-receipt');
-    if (viewReceiptBtn) {
+    if (viewReceiptBtn) { 
         viewReceiptBtn.addEventListener('click', function() {
             const content = `
 CarVerse Payment Receipt
