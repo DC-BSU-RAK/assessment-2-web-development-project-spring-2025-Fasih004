@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (carPosition < windowHeight - 100) { 
                 car.classList.add('fade-in');
             }
-        });
+        }); 
     };
     
     // Initial check
