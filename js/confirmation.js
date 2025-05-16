@@ -520,7 +520,7 @@ For assistance, contact your personal concierge at +971 4 456 7890.
     const viewReceiptBtn = document.querySelector('.view-receipt');
     if (viewReceiptBtn) { 
         viewReceiptBtn.addEventListener('click', function() {
-            const content = `
+            const content = ` 
 CarVerse Payment Receipt
 =======================
 Transaction ID: TRX-29384756
